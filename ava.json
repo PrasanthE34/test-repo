@@ -41,7 +41,7 @@
       {
         "@type": "#Microsoft.VideoAnalyzer.VideoSink",
         "name": "videoSink",
-        "videoName": "sample-cvr-video-sink",
+        "videoName": "test-uniqueid()",
         "inputs": [
           {
             "nodeName": "rtspSource",
