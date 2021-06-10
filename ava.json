@@ -41,7 +41,7 @@
       {
         "@type": "#Microsoft.VideoAnalyzer.VideoSink",
         "name": "videoSink",
-        "videoName": "test-uniqueid()",
+        "videoName": "test-channel",
         "inputs": [
           {
             "nodeName": "rtspSource",
@@ -55,7 +55,7 @@
           }
         ],
         "videoCreationProperties": {
-          "title": "test-uniqueid()",
+          "title": "test-01",
           "description": "Sample video using CVR video sink",
           "segmentLength": "PT30S"
         },
