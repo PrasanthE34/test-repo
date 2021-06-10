@@ -41,7 +41,7 @@
       {
         "@type": "#Microsoft.VideoAnalyzer.VideoSink",
         "name": "videoSink",
-        "videoName": "sampleAsset-${System.livePipelineName}",
+        "videoName": "${System.livePipelineName}",
         "inputs": [
           {
             "nodeName": "rtspSource",
