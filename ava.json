@@ -55,7 +55,7 @@
           }
         ],
         "videoCreationProperties": {
-          "title": "sample-cvr-video-sink",
+          "title": "test-uniqueid()",
           "description": "Sample video using CVR video sink",
           "segmentLength": "PT30S"
         },
