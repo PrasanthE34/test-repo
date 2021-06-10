@@ -41,7 +41,7 @@
       {
         "@type": "#Microsoft.VideoAnalyzer.VideoSink",
         "name": "videoSink",
-        "videoName": "test-channel",
+        "videoName": "${livePipelineSet.Name}",
         "inputs": [
           {
             "nodeName": "rtspSource",
