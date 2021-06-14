@@ -55,7 +55,7 @@
           }
         ],
         "videoCreationProperties": {
-          "title": "concat['${System.PipelineName}', '-Stream']",
+          "title": "VideoStream-${System.PipelineName}",
           "description": "Video streaming using CVR video sink",
           "segmentLength": "PT30S"
         },
